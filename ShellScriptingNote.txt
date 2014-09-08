@@ -1,0 +1,189 @@
+Shell Scripting with Bash - PluralSight class
+
+Introduction
+
+* Introduction
+* Why Shell Scripting?
+	- use Bash shell
+	- automation
+	- scheduled later
+* What to Expect From This Course?
+	- I/O
+	- Variables
+	- Conditional execution (if, then, else, case) Loops
+	- Arithmetic
+	- String manipulation
+	- Handling script arguments
+	- Shell 
+	(focus only on Bash shell)
+	(not going through Unit Utilities)
+* Prerequisites
+	- Basic knowledge of command line
+		* standard commands
+		* redirection
+		* pathname globbing
+		  (path name wildcard matching)
+
+A First Look At Shell Scripts
+Introduction
+  0:40
+Creating A Shell Script
+  5:55
+Demo: A Note-Taking Script
+  8:04
+Calling The Script
+  1:04
+The Shebang
+  2:50
+Naming Your Script
+  1:11
+Demo: The type Command
+  0:49
+Summary
+  0:42
+Variables
+Introduction
+  0:45
+Demo: Variables
+  6:15
+Variable Basics
+  2:41
+Using Variables in A Script
+  13:15
+Using Variables: Good Habits
+  1:26
+Reading Input
+  0:33
+Debugging your Script
+  2:22
+Summary
+  0:52
+If, Then, Else
+Introduction
+  0:46
+Demo: The If Statement
+  2:43
+The If Statement
+  1:53
+Return codes
+  1:47
+The Conditional Expression
+  2:56
+Demo: The Conditional Expression
+  11:44
+The Conditional Expression 2
+  1:49
+Arithmetic Tests
+  1:49
+Demo: Arithmetic Tests
+  4:26
+The If Statement Revisited
+  1:35
+And, Or, Not
+  1:48
+Summary
+  1:25
+Input and Output
+Introduction
+  0:41
+Output: echo and printf
+  6:46
+Input: read revisited
+  9:20
+Standard Streams and Redirection
+  7:00
+Demo: Redirection
+  7:33
+Summary
+  1:12
+Control Flow
+Introduction
+  1:16
+While and Until
+  3:48
+The Classic For Statement
+  5:55
+The C-Style For Statement
+  5:53
+Break and Continue
+  4:35
+The Case Statement
+  7:54
+&& and ||
+  7:48
+Summary
+  0:33
+Variables 2
+Introduction
+  1:04
+Integer Variables
+  2:57
+Arithmetic Expressions
+  3:43
+Arithmetic Expressions 2
+  4:18
+Read-only Variables
+  0:24
+Exporting Variables
+  8:22
+Arrays
+  5:06
+Summary
+  0:40
+Handling Script Parameters
+Introduction
+  1:10
+Special Variables
+  8:22
+Shift
+  3:26
+Getopts
+  8:09
+Getopts: Handling Errors
+  3:06
+Summary
+  0:31
+Shell Functions
+Introduction
+  0:39
+Shell Functions
+  4:40
+Shell Functions 2
+  2:11
+Functions: Demo
+  13:11
+Some Miscellaneous Remarks
+  2:31
+Summary
+  1:07
+Fun with Strings
+Introduction
+  0:43
+Removing Part Of A String
+  3:28
+Search and Replace
+  4:10
+Setting A Default Value
+  2:34
+Conditional Expression Patterns
+  3:07
+Regular Expressions in The Conditional Expression
+  6:26
+End of Options
+  3:41
+Summary
+  0:39
+Many Ways to Run Your Script
+Introduction
+  0:44
+Running your Code
+  2:23
+Nohup and The Background
+  3:06
+Exec
+  1:05
+At and Cron
+  1:26
+Set and Shopt
+  3:28
+Summary
