@@ -24,13 +24,46 @@ Introduction
 		* pathname globbing
 		  (path name wildcard matching)
 
-A First Look At Shell Scripts
-Introduction
-  0:40
-Creating A Shell Script
-  5:55
+First script: 
+
+==============
+echo Hello World!
+==============
+
+- need to run it with ./xxx.sh
+- need to change the execution permission
+  chmod u+x xxx.sh
+  chmod a+x xxx.sh (to make the script executable for everybody)
+- to see permissions
+  ls -l xxx.sh
+- to take away execution permission
+  chmod u-x xxx.sh
+
 Demo: A Note-Taking Script
-  8:04
+
+- script is interpreted by 'bash' interpreter
+- add the folder to PATH so scripts can be executed
+  - to add folder to PATH
+    (modify in ~/.bashrc)
+    export PATH="$PATH:$HOME/.rvm/bin" 
+  - to modify ~/.bashrc
+    subl ~/.bashrc
+  - to reload ~/.bashrc
+    source ~/.bashrc
+
+- #!/bin/bash
+  - specify that bash will be the interpreter
+  - shebang
+  - for other system than Linux or MacOS
+    (this will find bash in user's PATH)
+    #!/usr/bin/env bash
+
+- $1  grab the first arg
+  $*  grab all args
+  $(date) output date (command substitution, since 'date' is a bash command)
+
+- echo $(date): $* >> ~/note.txt
+
 Calling The Script
   1:04
 The Shebang
